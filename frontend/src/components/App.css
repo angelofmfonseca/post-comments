@@ -1,0 +1,218 @@
+/*
+
+Reset
+
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+
+Nav
+
+*/
+
+.topics {
+  background: #0066CC;
+  color: #E0E0E0;
+  position: fixed;
+  min-width: 110px;
+  max-width: 110px;
+  min-height: 100vh;
+}
+
+.topicsDetails {
+  display: block;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.eachTopic {
+  font-size: 16px;
+  padding: 60px 0;
+}
+
+.eachTopic a {
+  color: #E0E0E0;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.eachTopic a:hover {
+  color: #A0A0A0;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+
+/*
+
+Main Buttons
+
+*/
+
+.buttonsOrder{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.mainButtons{
+  margin: 10px 10px 5px 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #C0C0C0;
+  cursor: pointer;
+}
+
+.mainButtons:hover{
+  background-color: #A0A0A0;
+  color: #E0E0E0;
+}
+
+
+/*
+
+All Posts
+
+*/
+
+.allPosts{
+  width: 100%;
+  display: block;
+}
+
+.detail{
+  display: flex;
+  justify-content: center;
+}
+
+/*
+
+Single Post
+
+*/
+
+.singlePost{
+  width: 100%;
+  margin: 30px 0;
+}
+
+.editDelete{
+  display: block;
+  float: left;
+  margin-right: 80px;
+}
+
+.postButtons, .commentButtons{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.postButtons:hover, .commentButtons:hover{
+  background-color: #A0A0A0;
+  color: #E0E0E0;
+}
+
+.scoreCount{
+  display: block;
+  float: right;
+  margin-left: 80px;
+}
+
+.titlePost{
+  display: block;
+  clear: both;
+  padding: 15px 0;
+  text-align: center;
+  color: #404040;
+}
+
+a{
+  text-decoration: none;
+}
+
+.public, .post, .text-center{
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+/*
+
+Post
+
+*/
+
+.commentHeader, .addComment{
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.formInput{
+  display: block;
+  margin: 10px;
+}
+
+label {
+  margin: 5px;
+}
+
+.formInput>button{
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formInput>button:hover{
+  background-color: #A0A0A0;
+  color: #E0E0E0;
+}
+
+.formPost{
+  display: block;
+  text-align: center;
+}
+
+textarea, input{
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+/*
+
+Comments
+
+*/
+.comment{
+  display: block;
+  text-align: center;
+  margin: 30px;
+}
+
+.postButton{
+  display: block;
+  float: left;
+  margin-left: 80px;
+}
+
+.commentVote{
+  display: block;
+  float: right;
+  margin-right: 80px;
+}
+
+.commentAuthor, .commentDate, .commentBody{
+  display: block;
+  clear: both;
+  padding: 10px;
+}
